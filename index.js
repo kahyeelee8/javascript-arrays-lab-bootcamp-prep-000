@@ -3,3 +3,6 @@ function destructivelyAppendKitten (array, element) {
   kittens.push('Ralph');
   return kittens;
 }
+function destructivelyAppendKitten (array, element) {
+  kittens.unshift()
+}
