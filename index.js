@@ -3,7 +3,7 @@ function destructivelyAppendKitten (array, element) {
   kittens.push('Ralph');
   return kittens;
 }
-function destructivelyAppendKitten (array, element) {
+function destructivelyPrependKitten (array, element) {
   kittens.unshift('Bob');
   return kittens;
 }
