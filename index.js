@@ -4,5 +4,6 @@ function destructivelyAppendKitten (array, element) {
   return kittens;
 }
 function destructivelyAppendKitten (array, element) {
-  kittens.unshift()
+  kittens.unshift('Bob');
+  return kittens;
 }
